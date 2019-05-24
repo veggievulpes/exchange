@@ -1,2 +1,6 @@
 # exchange
-Stock Exchange API hi!
+Stock Exchange API. 
+
+#usage
+install dependencies using 'npm i'
+start application using 'npm start'
