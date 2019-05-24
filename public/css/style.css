@@ -1,0 +1,30 @@
+h1 {
+    color: #5c8d89
+}
+
+body {
+    background-color: #f4f9f4;
+    color: #5c8d89;
+    margin-left: 10px;
+    
+}
+
+.search{
+    width: 300px;
+    /*margin-right: 10px;*/
+    
+}
+
+.bt1{
+    background-color: #74b49b;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.div1 {
+    width: 550px;
+}

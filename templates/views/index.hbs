@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Stock Exchange API</title>
+    {{>relations}}
+    
+</head>
+
+<body>
+    {{>header}}
+    <p></p>
+    <div class="container div1">
+    <form>
+  <div class="form-row align-items-center">
+    <div class="col-auto">
+      <input class="form-control search" type="text" placeholder="Stock Market asset search">
+    </div>
+    <div class="col-auto">
+      <button class="btn btn-primary bt1">Search!</button>
+    </div>
+  </div>
+</form>
+<p></p>
+<p id="name"></p>
+<p id="symbol"></p>
+<p id="price_open"></p>
+<p id="price"></p>
+<p id="day_high"></p>
+<p id="day_low"></p>
+</div>
+    {{>footer}}
+</body>
+<script src="js/script.js"></script>
+</html>
