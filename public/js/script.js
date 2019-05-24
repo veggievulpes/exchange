@@ -15,7 +15,7 @@ exchangeForm.addEventListener('submit', (event) => {
         return;
     }
 
-    fetch(`http://localhost:3000/exchange?asset=${asset}`).then((response) => {
+    fetch(`/exchange?asset=${asset}`).then((response) => {
         response.json().then((data) => {
             if (data.error) {
                 $('#name').html(`Something wrong is not right! <strong>${data.error.message}, ${data.error.code}</strong>`)
